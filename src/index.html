@@ -30,7 +30,7 @@
                     <tr>
                         <th scope="col" style="width: 50px;"></th>
                         <th scope="col">Nome</th>
-                        <th scope="col">Telefone</th>
+                        <th class="d-none d-md-table-cell" scope="col">Telefone</th>
                         <th scope="col">E-mail</th>
                         <th scope="col" style="width: 150px;"></th>
                     </tr>
@@ -41,7 +41,7 @@
                             <input type="checkbox" ng-model="contato.selecionado" class="form-check-input" ng-disabled="contatoEditando && !contato.selecionado">
                         </td>
                         <td>{{contato.nome}}</td>
-                        <td>{{contato.telefone}}</td>
+                        <td class="d-none d-md-table-cell">{{contato.telefone}}</td>
                         <td>{{contato.email}}</td>
                         <td>
                             <button class="btn btn-outline-primary btn-sm" ng-click="editarContato(contato)">Editar</button>
