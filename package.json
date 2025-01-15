@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node index.html"
+  },
   "dependencies": {
     "angular": "^1.8.2",
     "angular-input-masks": "^4.4.1",
