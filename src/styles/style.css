@@ -1,0 +1,104 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+h3 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    color: #495057;
+    
+}
+.table {
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-warning {
+    background-color: #f0e68c !important; /* Substitua por qualquer cor desejada */
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 16px;
+}
+.table th {
+    background-color: #343a40;
+    color: #fff;
+}
+.table td {
+    background-color: #ffffff;
+    color: #555;
+    vertical-align: middle;
+}
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+.form-control, .form-select {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.form-control:focus, .form-select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+.btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-danger:hover {
+    background-color: #bd2130;
+    border-color: #a71d2a;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+.btn:disabled {
+    background-color:rgb(110, 107, 107);
+    cursor: not-allowed;
+}
+.checkbox {
+    margin-right: 10px;
+}
+.alert {
+    margin-top: 10px;
+}
